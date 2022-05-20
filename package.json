@@ -1,0 +1,20 @@
+{
+  "name": "sumsi-malwettbewerb",
+  "version": "1.0.0",
+  "description": "second coding school challenge",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass src/scss/style.scss dist/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.tailored-apps.com:coding-school/ws2021/webdevelopment/sumsi-malwettbewerb-iasmina-u-mia.git"
+  },
+  "author": "Iasmina Zlatca Maria Stockhammer",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "sass": "^1.45.1",
+    "sass-loader": "^12.4.0"
+  }
+}

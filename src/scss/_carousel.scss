@@ -1,0 +1,46 @@
+#myCarousel,
+#carouselExampleIndicators,
+.carousel-item {
+  max-height: calc(100vh - 58px);
+  overflow: hidden;
+}
+
+.carousel-item,
+img {
+  opacity: 1;
+}
+
+.my-caption {
+  .sumsi {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    background-color: $rai-black;
+    font-family: $primary-font-family;
+    padding: 15px;
+    color: white;
+    margin-bottom: 0;
+    width: fit-content;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  p {
+    background-color: $rai-yellow;
+    font-family: $primary-font-family;
+    padding: 15px;
+    color: $rai-black;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .my-caption {
+    height: 20rem;
+
+    .sumsi {
+      display: none;
+    }
+  }
+}

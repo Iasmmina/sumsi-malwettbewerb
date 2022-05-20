@@ -1,0 +1,332 @@
+.footer-container {
+  bottom: 0;
+  margin-right: 3rem;
+  margin-left: 3rem;
+  height: fit-content;
+  width: 100vw;
+}
+
+.footer-container:before {
+  content: "";
+  background-image: url(../src/img/footer_top_strip.jpeg);
+  background-position: top left;
+  background-repeat: repeat-x;
+  position: absolute;
+  display: inline-block;
+  width: 100%;
+  height: 5px;
+  left: 0;
+}
+
+.footer-wrapper {
+  margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-container {
+    margin: 0;
+  }
+  .footer-container .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-container .footer-wrapper .footer-section {
+    border: 1px solid #dee2e6;
+    width: 95%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .footer-container .footer-wrapper .footer-section h5 {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+
+  #toTopButton {
+    display: none;
+  }
+}
+.form-background {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../src/img/school-times.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 850px;
+  background-color: white;
+  margin-top: 2rem;
+  background-color: #e7e7e7;
+}
+
+.send-button {
+  background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .form-background {
+    background-image: none;
+    height: unset;
+    width: unset;
+    max-width: unset;
+  }
+
+  .form-container {
+    background-image: url(../src/img/school-times.jpg);
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    margin: 0;
+  }
+  .form-container h2 {
+    font-size: 16px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 3px;
+    margin-top: 2rem;
+  }
+  .form-container h5 {
+    font-size: 15px;
+    font-weight: normal;
+    background-color: white;
+    padding: 1px;
+    border-radius: 3px;
+    margin-bottom: 2rem;
+  }
+  .form-container input {
+    font-size: 14px;
+  }
+  .form-container .checkbox-label {
+    background-color: white;
+    font-size: 14px;
+    padding: 0.5px;
+  }
+  .form-container .input-label {
+    display: none;
+  }
+  .form-container .send-button {
+    margin-bottom: 2rem;
+  }
+}
+.img {
+  height: 34px;
+  width: 40px;
+  padding-left: 50px;
+}
+
+.nav-item {
+  margin-left: 60px;
+  margin-right: 0;
+}
+
+.navbar-nav {
+  margin-right: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+#toTopButton {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 99;
+  font-size: 20px;
+  color: #53565a;
+  text-align: center;
+  cursor: pointer;
+}
+
+#toTopButton:hover {
+  background-color: #53565a;
+  color: white;
+  border: 3px solid #fafafa;
+}
+
+@media only screen and (max-width: 700px) {
+  #toTopButton {
+    font-size: 14px;
+  }
+}
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url(../src/img/header.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.header-container {
+  width: 60%;
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 0;
+}
+.header-container p {
+  margin-top: 30px;
+  width: 700px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.header-container .btn-header {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: fit-content;
+}
+
+@media only screen and (max-width: 700px) {
+  .header-container {
+    font-size: 30px;
+  }
+}
+#myCarousel,
+#carouselExampleIndicators,
+.carousel-item {
+  max-height: calc(100vh - 58px);
+  overflow: hidden;
+}
+
+.carousel-item,
+img {
+  opacity: 1;
+}
+
+.my-caption .sumsi {
+  margin-bottom: 0;
+}
+.my-caption h2 {
+  background-color: #000000;
+  font-family: Helvetica;
+  padding: 15px;
+  color: white;
+  margin-bottom: 0;
+  width: fit-content;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.my-caption p {
+  background-color: #fbf315;
+  font-family: Helvetica;
+  padding: 15px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+  .my-caption {
+    height: 20rem;
+  }
+  .my-caption .sumsi {
+    display: none;
+  }
+}
+.gallery-heading-wrapper {
+  position: relative;
+}
+
+.sumsi-cheering,
+.sumsi-cheering2 {
+  position: absolute;
+  max-width: 20%;
+  bottom: 20px;
+}
+
+.sumsi-cheering2 {
+  right: 0;
+}
+
+.gallery-heading {
+  font-family: "Oleo Script", cursive;
+  font-size: 36px;
+  color: #78be21;
+  text-align: center;
+}
+
+.card-title {
+  font-family: "Oleo Script", cursive;
+  color: #78be21;
+}
+
+.card-votes {
+  border: 1px solid #53565a;
+  border-radius: 10px;
+}
+
+.votingBtn {
+  color: #78be21;
+  padding: 0;
+  margin: 0;
+}
+
+.votingBtn:hover {
+  color: #e7343f;
+}
+
+@media only screen and (max-width: 700px) {
+  .gallery-sub-heading {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .sumsi-cheering,
+.sumsi-cheering2 {
+    display: none;
+  }
+}
+.participation-background {
+  background-image: url(../src/img/participate-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.participation-info {
+  position: relative;
+  background-color: rgba(251, 243, 21, 0.85);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+}
+.participation-info ul {
+  list-style-type: square;
+}
+.participation-info ul li {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.participation-info img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .participation-info {
+    padding: 5px;
+  }
+  .participation-info ul li {
+    font-size: 15px;
+  }
+  .participation-info img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

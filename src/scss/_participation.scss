@@ -1,0 +1,40 @@
+.participation-background {
+  background-image: url(../src/img/participate-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.participation-info {
+  position: relative;
+  background-color: rgba(251, 243, 21, 0.85);
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  ul {
+    list-style-type: square;
+    li {
+      margin-bottom: 5px;
+      font-size: 18px;
+    }
+  }
+}
+
+.participation-info img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  max-width: 30%;
+}
+
+@media only screen and (max-width: 800px) {
+  .participation-info {
+    padding: 5px;
+    ul li {
+      font-size: 15px;
+    }
+    img {
+      display: none;
+    }
+  }
+}

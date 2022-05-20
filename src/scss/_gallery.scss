@@ -1,0 +1,50 @@
+.gallery-heading-wrapper {
+  position: relative;
+}
+.sumsi-cheering,
+.sumsi-cheering2 {
+  position: absolute;
+  max-width: 20%;
+  bottom: 20px;
+}
+.sumsi-cheering2 {
+  right: 0;
+}
+
+.gallery-heading {
+  font-family: "Oleo Script", cursive;
+  font-size: 36px;
+  color: $rai-green;
+  text-align: center;
+}
+.card-title {
+  font-family: "Oleo Script", cursive;
+  color: $rai-green;
+}
+
+.card-votes {
+  border: 1px solid $rai-gray;
+  border-radius: 10px;
+}
+
+.votingBtn {
+  color: $rai-green;
+  padding: 0;
+  margin: 0;
+}
+.votingBtn:hover {
+  color: $rai-red;
+}
+
+@media only screen and (max-width: 700px) {
+  .gallery-sub-heading {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .sumsi-cheering,
+  .sumsi-cheering2 {
+    display: none;
+  }
+}
